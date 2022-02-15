@@ -260,4 +260,7 @@ textarea {
     page-break-after: avoid;
   }
 }
+.navigation-tab li{
+  display: inline-block
 
+}

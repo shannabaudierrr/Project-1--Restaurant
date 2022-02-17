@@ -263,3 +263,17 @@ textarea {
 .navigation-tab li{
   display: inline-block
 }
+.roxy-header{
+  background-color: gray;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  }
+  h1{
+    color: white
+  }
+  .navigation-tab{
+    display: flex;
+    justify-content: space-around;
+    
+  }

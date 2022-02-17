@@ -260,39 +260,87 @@ textarea {
     page-break-after: avoid;
   }
 }
-
+/* HEADER CSS */
 .roxy-header{
   background-image: url(https://i.pinimg.com/564x/58/16/ee/5816eee0a707c80551976cdaa6b0bdb6.jpg);
   font-size: 50px;
   display: flex;
   justify-content: center;
   }
-  h1{
-    color: white
-  }
-  .navigation-tab{
-    display: flex;
-    justify-content: space-around;
-    background-color: rgb(255, 115, 0);
-    position: sticky;
-    top: 0px
-  }
+.roxy-header a{
+  text-decoration: none;
+}
+.roxy-header a:hover{
+  text-decoration: underline;
+  color: red;
+}
+h1{
+  color: white
+}
+/* NAVIGATION CSS */
+.navigation-tab{
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(255, 115, 0);
+  position: sticky;
+  top: 0px
+}
+.navigation-tab a{
+  text-decoration: none;
+  color: black;
+}
 .navigation-tab a:hover{
- border: solid 1px red;
-  }
-  .our-story{
-    display: flex;
-    gap: 20px;
-    margin: 50px;
-
-  }
-  .our-story-images img{
-   width: 100%;
-   margin-top: 30px;
-  }
-  .our-story-text{
-    width: 75%;
-  }
-  .our-story h3{
-    font-size: 35px;
-  }
+  color: red;
+}
+.our-story{
+  display: flex;
+  gap: 20px;
+  margin: 50px;
+}
+.our-story-images figure{
+  width: 50%;
+  margin-top: 30px;
+}
+.our-story-text{
+  width: 50%;
+}
+.our-story h3{
+  font-size: 35px;
+}
+.featured-items img{
+  max-width: 200px;
+}
+.featured-items{
+  display: flex;
+}
+/* FOOTER CSS */
+.footer-tab{
+  display:flex;
+  justify-content: space-around;
+  background-color: darkred;
+}
+.roxys-logo{
+  size: 2pt;
+}
+h4{
+  color: white;
+  font-size: 20px;
+}
+.sitemap li{
+  color: white;
+}
+.sitemap a{
+  color: white;
+}
+.sitemap a:hover{
+  color: red
+}
+.contact-footer li{
+  color: white;
+}
+.contact-footer a{
+  color: white;
+}
+.contact-footer a:hover{
+  color: red;
+}

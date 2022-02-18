@@ -269,13 +269,10 @@ textarea {
   }
 .roxy-header a{
   text-decoration: none;
+  color: white;
 }
 .roxy-header a:hover{
-  text-decoration: underline;
-  color: red;
-}
-h1{
-  color: white
+  color: brown;
 }
 /* NAVIGATION CSS */
 .navigation-tab{
@@ -288,6 +285,9 @@ h1{
 .navigation-tab a{
   text-decoration: none;
   color: black;
+}
+.navigation-tab h2{
+  font-size: 35pt;
 }
 .navigation-tab a:hover{
   color: red;
@@ -345,6 +345,15 @@ h1{
 }
 .roxys-menu img{
   max-width: 300px;
+}
+/* LOCATIONS CSS */
+.location-page h3{
+  font-size: 50pt;
+  color: rgb(37, 3, 3);
+}
+.location-page h4{
+  font-size: 25pt;
+  color: brown;
 }
 /* FOOTER CSS */
 .footer-tab{

@@ -272,7 +272,7 @@ textarea {
   color: white;
 }
 .roxy-header a:hover{
-  color: brown;
+  color: red;
 }
 /* NAVIGATION CSS */
 .navigation-tab{
@@ -280,7 +280,7 @@ textarea {
   justify-content: space-around;
   background-color: rgb(255, 115, 0);
   position: sticky;
-  top: 0px
+  top: 0px;
 }
 .navigation-tab a{
   text-decoration: none;
@@ -290,24 +290,27 @@ textarea {
   font-size: 35pt;
 }
 .navigation-tab a:hover{
-  color: red;
+  color: white;
 }
-/* BODY CSS */
 /* OUR STORY */
 .our-story{
   display: flex;
-  gap: 20px;
+  gap: 35px;
   margin: 75px;
 }
 .our-story-images figure{
-  width: 75%;
-  margin-top: 30px;
+  width: 100%;
+  margin: 35px;
+}
+.our-story-images figcaption{
+  font-size: 15pt;
+  margin-top: 8px;
 }
 .our-story-text p{
   font-size: 17pt;
 }
 .our-story h3{
-  font-size: 50px;
+  font-size: 50pt;
 }
 /* HOME PAGE- featured and seasonal */
 .home-page{
@@ -320,40 +323,108 @@ textarea {
   font-size: 45pt;
 }
 .featured-items img{
-  max-width: 200px;
+  width: 100%;
+  height: auto;
+  max-width: 300px;
 }
 .featured-items{
   display: flex;
   flex-wrap: wrap;
 }
 .seasonal-items img{
-  max-width: 200px;
+  width: 100%;
+  height: auto;
+  max-width: 300px;
 }
 .seasonal-items{
   display: flex;
   flex-wrap: wrap;
 }
 /* MENU CSS */
-.roxys-menu h3{
-  font-size: 45pt;
+.roxys-menu-header h3{
+  font-size: 50pt;
+  text-align: center;
+  color: black;
 }
-.roxys-menu h4{
-  font-size: 25pt;
-}
-.roxys-menu figcaption{
+.jump-to-buttons a{
+  text-decoration: none;
+  color: white;
   font-size: 15pt;
 }
-.roxys-menu img{
+.jump-to-buttons{
+  text-align: center;
+  background-color: rgb(255, 217, 0);
+  padding: 18px;
+}
+.jump-to-buttons button{
+  background-color: rgb(199, 22, 22);
+  padding: 8px;
+  border-radius: 8px;
+}
+.jump-to-buttons button:hover{
+  background-color: maroon;
+}
+.roxys-menu-body h4{
+  font-size: 25pt;
+}
+.roxys-menu-body figcaption{
+  font-size: 15pt;
+}
+.roxys-menu-body img{
+  width: 100%;
+  height: auto;
   max-width: 300px;
+}
+/* FIX THIS REPEAT THE FEATURED ITEMS */
+
+.roxys-menu-body{
+  display: flex;
+  flex-wrap: wrap;
+}
+.roxys-menu-body ul{
+  padding-bottom: 40px ;
 }
 /* LOCATIONS CSS */
 .location-page h3{
   font-size: 50pt;
   color: rgb(37, 3, 3);
+  margin-left: 40px;
 }
 .location-page h4{
   font-size: 25pt;
   color: brown;
+  margin: 10px;
+}
+.location-page ul{
+  margin-left: 40px;
+  font-size: 20pt;
+}
+.location-page li{
+  padding: 4px;
+}
+/* CONTACT US CSS */
+.contact-us-title h3{
+  font-size: 50pt;
+  margin-left: 40px;
+  margin-bottom: 0%;
+  margin-top: 40px;
+}
+.contact-us-body{
+  font-size: 20pt;
+  margin-left: 40px;
+}
+.contact-us-body li{
+  margin: 4pt;
+}
+.contact-us-body{
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+.contact-us-body a{
+  color: #000;
+}
+.contact-us-body a:hover{
+  background-color:orange;
 }
 /* FOOTER CSS */
 .footer-tab{
@@ -361,15 +432,14 @@ textarea {
   justify-content: space-around;
   background-color: darkred;
 }
-.roxys-logo{
-  size: 2pt;
-}
 .footer-tab h4{
   color: white;
-  font-size: 20px;
+  font-size: 28px;
 }
 .sitemap li{
   color: white;
+  font-size: 15pt;
+  margin-top: 4pt;
 }
 .sitemap a{
   color: white;
@@ -379,6 +449,8 @@ textarea {
 }
 .contact-footer li{
   color: white;
+  font-size: 15pt;
+  margin-top: 4pt;
 }
 .contact-footer a{
   color: white;

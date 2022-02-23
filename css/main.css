@@ -291,6 +291,7 @@ textarea {
 }
 .navigation-tab a:hover{
   color: white;
+  border: 2pt solid maroon;
 }
 /* OUR STORY */
 .our-story{
@@ -308,9 +309,14 @@ textarea {
 }
 .our-story-text p{
   font-size: 17pt;
+  margin: 20px;
 }
 .our-story h3{
   font-size: 50pt;
+}
+.roxy-signature{
+  margin: 15px;
+  margin-top: 25px;
 }
 /* HOME PAGE- featured and seasonal */
 .home-page{
@@ -355,6 +361,7 @@ textarea {
   text-align: center;
   background-color: rgb(255, 217, 0);
   padding: 18px;
+/* Why wont position sticky work?? */
 }
 .jump-to-buttons button{
   background-color: rgb(199, 22, 22);
@@ -365,7 +372,8 @@ textarea {
   background-color: maroon;
 }
 .roxys-menu-body h4{
-  font-size: 25pt;
+  font-size: 35pt;
+  margin-left: 15px;
 }
 .roxys-menu-body figcaption{
   font-size: 15pt;
@@ -375,32 +383,73 @@ textarea {
   height: auto;
   max-width: 300px;
 }
-/* FIX THIS REPEAT THE FEATURED ITEMS */
-
+.roxys-shareables{
+  display: flex;
+  flex-wrap: wrap;
+}
+#entrees{
+  display: flex;
+  flex-wrap: wrap;
+}
+#sides{
+  display: flex;
+  flex-wrap: wrap;
+}
+#desserts{
+  display: flex;
+  flex-wrap: wrap;
+}
 .roxys-menu-body{
   display: flex;
   flex-wrap: wrap;
 }
 .roxys-menu-body ul{
   padding-bottom: 40px ;
+  list-style-type: none;
 }
 /* LOCATIONS CSS */
+.location-buttons a{
+  text-decoration: none;
+  color: white;
+  font-size: 15pt;
+}
+.location-buttons{
+  text-align: center;
+  background-color: rgb(255, 217, 0);
+  padding: 18px;
+  width: 100%;
+  position: sticky;
+  top: 115px;
+}
+.location-buttons button{
+  background-color: rgb(199, 22, 22);
+  padding: 8px;
+  border-radius: 8px;
+}
+.location-buttons button:hover{
+  background-color: maroon;
+}
 .location-page h3{
   font-size: 50pt;
   color: rgb(37, 3, 3);
   margin-left: 40px;
 }
 .location-page h4{
-  font-size: 25pt;
+  font-size: 35pt;
   color: brown;
   margin: 10px;
 }
 .location-page ul{
   margin-left: 40px;
   font-size: 20pt;
+  list-style-type: none;
 }
 .location-page li{
   padding: 4px;
+}
+.location-list ul{
+  padding-bottom: 40px ;
+  list-style-type: none;
 }
 /* CONTACT US CSS */
 .contact-us-title h3{
@@ -424,7 +473,7 @@ textarea {
   color: #000;
 }
 .contact-us-body a:hover{
-  background-color:orange;
+  background-color: rgb(255, 115, 0);
 }
 /* FOOTER CSS */
 .footer-tab{
